@@ -24,9 +24,9 @@ while counter <= 100
     puts "Buzz"
   elsif counter%3==0 && counter%5==0
     puts "FizzBuzz"
-  counter = counter+1
 
-  puts counter
-  
   end 
+  counter = counter+1
+  puts counter
+
   end
