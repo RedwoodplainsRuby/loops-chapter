@@ -19,3 +19,14 @@
 
 p "Enter a number:"
 
+number = gets.chomp.to_i
+if number >= 0 && number <= 10
+  multiplier = 1
+  while multiplier <= 10
+    puts multiplier * number
+    multiplier = multiplier + 1
+  end
+else 
+    puts "Please re-enter a valid number between 1~10"
+
+end
